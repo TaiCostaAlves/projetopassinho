@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <main>
+        
+        <form>
+            <label for="nomecompleto">Nome Completo </label>
+            <input type="text" id="nomecompleto" class="input-padrao" required>
+
+            <label for="datanascimento">Data de Nascimento </label>
+            <input type="text" id="datanascimento" class="input-padrao" required>
+
+            <label for="mensagem">Digite a sua mensagem</label>
+            <input type="text" id="mensagem" class="input-padrao" required>
+
+            <label for="escolha">Faça a sua escolha  </label>
+            <select id="escolha">
+
+                <option value="cifra"> Cifra de César</option>
+                
+                <option value="base">Base 64</option>
+                
+            </select>
+            
+            <label for="deslocamento">Coloque um número de 1 a 25</label>
+            <input type="text" id="deslocamento" class="input-padrao" required>
+
+            <label for="radio-codificar"> <input type="radio" name="opcao" value="codificar" id="radio-codificar"> codificar </label>
+            <label for="radio-decodificar"> <input type="radio" name="opcao" value="decodificar" id="radio-decodificar"> decodificar </label>
+                
+
+        </form>
+
+            <div class="codificar">
+            <button> Gerar mensagem </button>
+            <label for="mensagemfinal">Mensagem Codificada</label>
+            <input type="text" id="mensagemfinal" class="input-padrao" required>
+            </div>
+
+    </main>
+
+
+
+</body>
+
+</html>
