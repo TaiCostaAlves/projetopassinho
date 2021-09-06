@@ -1,11 +1,12 @@
 
+function cifra
 const cifraDeCesarCriptografar = (frase, deslocamento) => {
     const tamanhoFrase = frase.lenght;
     const alfabeto = alfabeto();
     let frasePronta = '';
 
     for (var i = 0; i < tamanhoFrase; i++) {
-        const letra = frase{ i };
+        const letra = frase (i);
 
         if (letra === ' ') {
             frasePronta = `${frasePronta}`;
