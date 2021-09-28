@@ -10,48 +10,42 @@
 </head>
 
 <body>
+    <header>
 
-    <main>
+    </header>
 
-        <h1>
+    <div class="caixa">
 
-        </h1>
+        <h3 id="titulo">
+            Decifrar
+        </h3>
         <form>
-
+            
             <label for="digiteasuamensagem">Digite a sua mensagem</label>
             <input type="text" id="digiteasuamensagem" placeholder="Digite a sua mensagem aqui">
-
-
+            <br>
             <label for="escolha">Faça a sua escolha </label>
             <select id="escolha">
-
-
-                <option value="cifra" id="cesar"> Cifra de César</option>
-
-                <option value="base" id="basebase">Base 64</option>
-
+            <option value="cifra" id="cesar"> Cifra de César</option>
+            <option value="base" id="basebase">Base 64</option>
             </select>
-
-
-
             <label for="radio-codificar"> <input type="radio" name="opcao" value="codificar" id="radioCodificar">
                 codificar </label>
             <label for="radio-decodificar"> <input type="radio" name="opcao" value="decodificar" id="radioDecodificar">
                 decodificar </label>
+                <br>
             <div id="caixa">
-                <legend> Digite um número entre 1 e 26 </legend>
-                <input type="number" id="numerodeslocamento" min="1">
+             <legend> Digite um número entre 1 e 26 </legend>
+             <input type="number" id="numerodeslocamento" min="1">
             </div>
         </form>
-
+        <br>
         <div class="codificar">
             <button id="botao"> Gerar mensagem </button>
-            <label for="mensagemfinal">Mensagem Codificada</label>
-
-
-        </div>
-        <input type="text" id="mensagemfinal" value="">
-    </main>
+            <br>
+            <input type="text" id="mensagemfinal" value="">
+            <label id="mensagemcod" for="mensagemfinal">Mensagem Codificada</label>
+    
     <script src="index.js">
     </script>
 
